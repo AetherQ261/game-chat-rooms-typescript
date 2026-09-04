@@ -1,0 +1,7 @@
+{
+  "name": "game-chat-rooms-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --experimental-strip-types src/main.ts", "test": "node --experimental-strip-types src/chat_room.test.ts"},
+  "dependencies": {"zod": "^3.23.8"}
+}
